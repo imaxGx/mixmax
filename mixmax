@@ -27,7 +27,7 @@ local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/T
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/Tienvn123tkvn/Test/main/ZierhubfaceManager.lua"))()
 ----------------------------------------------------------------------------------------------------------------------------------------------
 local Window = Fluent:CreateWindow({
-    Title = "ImaxG HUB",
+    Title = "ZINER HUB",
     SubTitle = "Kai Wibu",
     TabWidth = 160,
     Size = UDim2.fromOffset(500, 320),
@@ -2536,7 +2536,7 @@ ImageButton.BorderSizePixel = 0
 ImageButton.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0)
 ImageButton.Size = UDim2.new(0, 50, 0, 50)
 ImageButton.Draggable = true
-ImageButton.Image = "http://www.roblox.com/asset/?id=110098189723198"
+ImageButton.Image = "http://www.roblox.com/asset/?id=17382863073"
 ImageButton.MouseButton1Down:connect(function()
     game:GetService("VirtualInputManager"):SendKeyEvent(true,Enum.KeyCode.End,false,game)
 end)
@@ -2564,7 +2564,7 @@ local listfastattack = {'Normal','Slow','Super','Low'}
     })
     DropdownDelayAttack:SetValue("Fast Attack")
     DropdownDelayAttack:OnChanged(function(Value)
-    _G.FastAttackImaxG_Mode = Value
+    _G.FastAttackZINER_Mode = Value
 	if _G.FastAttackWinterhub_Mode == "Slow" then
 		_G.Fast_Delay = 0.12
 	elseif _G.FastAttackWinterhub_Mode == "Normal" then
@@ -7869,8 +7869,8 @@ Tabs.profile:AddParagraph({
     })
   
 Tabs.profile:AddParagraph({
-        Title = "link Discord ImaxG HUB",
-        Content = "https://discord.gg/uXHnuNEQ"
+        Title = "link Discord ZINER HUB",
+        Content = "https://discord.gg/Y8vrbPyPyR"
     })      
 --------------------------------------------------------------------------------------------------------------------------------------------
 --Hop
@@ -7946,7 +7946,7 @@ end)
 end
 ----------------------------------------------------------------------------------------------------------------------------------------------
 Fluent:Notify({
-    Title = "ImaxG HUB",
+    Title = "ZINER HUB",
     Content = "Helllo you",
     Durtion = 3
 })
